@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <%- include('partials/style');%>
+        <%- include('partials/head'); %>
+    </head>
+    <body>
+        <form action="http://localhost:8000/insertdb" method="post">
+                <div class="container">
+                    <hr>
+                    <label class="typetext"> <b>Enter Type :-</b></label>
+                    
+                        <select name="type" id="type" plcaceholder = "Type">
+                            <option value="books">Book</option>
+                            <option value="journals">Journal</option>
+                        </select>                        
+          
+                    
+                       <label for="idtext"><b> Enter ID :-</b></label>
+                    
+                    
+                        <input type="number" name="typeid" id="typeid" placeholder="Enter here" required >
+                    
+                
+                
+                        <label for="idtext"><b> Enter Name :-</b></label>
+                        
+                    
+                    
+                        <input type="text" name="name" id="name" placeholder="Enter here" required>
+                    
+                
+                
+                        <label for="idtext"><b>Enter date :- </b></label>
+                        
+                    
+                    
+                        <input type="date" name="published" id="" required>
+                    
+                
+                
+                        <label for="idtext"><b>Enter author id :- </b></label>
+                        
+                    
+                    
+                        <input type="number" name="authid" id="authid" placeholder="Enter here" required>
+                    
+                
+                
+                        <label for="idtext"><b>Enter author name :- </b></label>
+                        
+                    
+                    
+                        <input type="text" name="authname" id="authname" placeholder="Enter here" required>
+                    
+                
+                <hr>
+                    
+                        <input type="submit" class="submit" value="Submit">
+                    
+                </div>
+
+        </form>
+    </body>
+</html>

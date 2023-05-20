@@ -1,0 +1,35 @@
+<script>
+    let search = document.getElementById('search');
+
+    console.log("Hello");
+
+    search.addEventListener('click',e=>{
+        window.location.replace("http://localhost:8000/search")
+        console.log("Entered");
+    });
+
+
+    let insert = document.getElementById('insert')
+    insert.addEventListener('click',e=>{
+        window.location.replace("http://localhost:8000/insert")
+        console.log("Entered");
+    });
+
+    let report = document.getElementById('report')
+    report.addEventListener('click',e=>{
+        window.location.replace("http://localhost:8000/report")
+        console.log("Entered");
+    });
+
+    let date = document.getElementById('getbydate')
+    date.addEventListener('click',e=>{
+        window.location.replace("http://localhost:8000/getbydate")
+        console.log("Entered");
+    });
+
+    let name = document.getElementById('updatename')
+    name.addEventListener('click',e=>{
+        window.location.replace("http://localhost:8000/updatename")
+        console.log("Entered");
+    });
+</script>

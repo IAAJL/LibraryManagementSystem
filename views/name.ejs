@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <%- include('partials/style');%>
+        <%- include('partials/head'); %>
+    </head>
+    <body>
+        <form action="http://localhost:8000/updatename" method="post">
+            
+            <div class="container">
+
+                    <label for="idtext"><b>Enter Type :-</b></label>
+                    
+                    
+                        <select name="type" id="type" placeholder = "Type">
+                            <option value="books">Book</option>
+                            <option value="journals">Journal</option>
+                        </select>                        
+                    
+                
+                        <label for="idtext"><b>Enter id :</b></label>
+                    
+                    
+                        <input type="number" name="id" id="" required placeholder = "Enter here">
+                    
+                
+                        <label for="idtext"><b>Enter new name :</b></label>
+                    
+                    
+                        <input type="text" name="name" id="" required placeholder = "Enter here">
+                 
+                        <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>

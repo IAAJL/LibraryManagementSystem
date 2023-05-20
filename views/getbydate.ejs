@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <%- include('partials/style');%>
+        <%- include('partials/head'); %>
+    </head>
+    <body>
+        <form action="http://localhost:8000/getbydatedb" method="post">
+            <div class="container">
+                <hr>
+                <label class="typetext"> <b>Enter Type :-</b></label>
+                
+                    <select name="type" id="type" plcaceholder = "Type">
+                        <option value="books">Book</option>
+                        <option value="journals">Journal</option>
+                    </select>   
+                    <label for="idtext"><b> Enter date :</b></label>                      
+                    
+                    
+                        <input type="date" name="date" id="" required>
+                        <input type="submit" value="Submit">  
+        </form>
+    </body>
+</html>
