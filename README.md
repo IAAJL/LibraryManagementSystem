@@ -1,7 +1,7 @@
 # LibraryManagementSystem
 Full Stack Development Project
 
-Software for retrieving data on books and authors from library database.
+Software for manipulating data on books and authors from library database.
 
 In-Use :- Node.js, Express, MongoDB, HTML, CSS, EJS
 
